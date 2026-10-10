@@ -1,4 +1,108 @@
-[gd_scene format=3 uid="uid://boslr0a31h243"]
+[gd_scene format=3 uid="uid://bim5wj5liynp5"]
 
-[node name="Player" type="Area2D" unique_id=1011119366]
+[ext_resource type="Script" uid="uid://0g2qlxdjuulj" path="res://player.gd" id="1_pylmc"]
+[ext_resource type="Texture2D" uid="uid://npuduypg3qhe" path="res://sprites/HeroandOpponents_v1/Player/PNG/Idle/idle-1.png" id="1_q13i1"]
+[ext_resource type="Texture2D" uid="uid://bs5upyqk2x23a" path="res://sprites/HeroandOpponents_v1/Player/PNG/Idle/idle-2.png" id="2_pylmc"]
+[ext_resource type="Texture2D" uid="uid://cqiecesx67j5r" path="res://sprites/HeroandOpponents_v1/Player/PNG/Idle/idle-3.png" id="3_pbfsw"]
+[ext_resource type="Texture2D" uid="uid://bvgynoxfpb8rd" path="res://sprites/HeroandOpponents_v1/Player/PNG/Idle/idle-4.png" id="4_5tmop"]
+[ext_resource type="Texture2D" uid="uid://cqgth6cnrbiih" path="res://sprites/HeroandOpponents_v1/Player/PNG/Idle/idle-5.png" id="5_7ahtn"]
+[ext_resource type="Texture2D" uid="uid://e1rrgjq841k1" path="res://sprites/HeroandOpponents_v1/Player/PNG/Idle/idle-6.png" id="6_7lmhl"]
+[ext_resource type="Texture2D" uid="uid://dbdl2sjha3kxy" path="res://sprites/HeroandOpponents_v1/Player/PNG/Run/run-1.png" id="7_dx0e4"]
+[ext_resource type="Texture2D" uid="uid://cncdvv87t0yoy" path="res://sprites/HeroandOpponents_v1/Player/PNG/Run/run-2.png" id="8_jm5j8"]
+[ext_resource type="Texture2D" uid="uid://d2w8gd7yprd8j" path="res://sprites/HeroandOpponents_v1/Player/PNG/Run/run-3.png" id="9_7hik5"]
+[ext_resource type="Texture2D" uid="uid://bklmyschikavw" path="res://sprites/HeroandOpponents_v1/Player/PNG/Run/run-4.png" id="10_qtqh7"]
+[ext_resource type="Texture2D" uid="uid://c6wagcbfwksnd" path="res://sprites/HeroandOpponents_v1/Player/PNG/Run/run-5.png" id="11_2wuci"]
+[ext_resource type="Texture2D" uid="uid://dc777riak8bye" path="res://sprites/HeroandOpponents_v1/Player/PNG/Run/run-6.png" id="12_iruf7"]
+[ext_resource type="Texture2D" uid="uid://kdq4hvx8qyj0" path="res://sprites/HeroandOpponents_v1/Player/PNG/Run/run-7.png" id="13_j5n4i"]
+[ext_resource type="Texture2D" uid="uid://bn2883admrcgq" path="res://sprites/HeroandOpponents_v1/Player/PNG/Run/run-8.png" id="14_634y6"]
+[ext_resource type="Texture2D" uid="uid://c7ed8p07kct0l" path="res://sprites/HeroandOpponents_v1/Player/PNG/Run/run-9.png" id="15_efrwb"]
+[ext_resource type="Texture2D" uid="uid://dxfrgsu6uy7qx" path="res://sprites/HeroandOpponents_v1/Player/PNG/Run/run-10.png" id="16_hiqhm"]
+[ext_resource type="Texture2D" uid="uid://cut6h5lct3e28" path="res://sprites/HeroandOpponents_v1/Player/PNG/Run/run-11.png" id="17_tkwlq"]
+[ext_resource type="Texture2D" uid="uid://daxonu8xuvomo" path="res://sprites/HeroandOpponents_v1/Player/PNG/Run/run-12.png" id="18_hl5qd"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_2u2tv"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_q13i1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_pylmc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_pbfsw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_5tmop")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_7ahtn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_7lmhl")
+}],
+"loop": 1,
+"name": &"idle",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("7_dx0e4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_jm5j8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_7hik5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_qtqh7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_2wuci")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_iruf7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_j5n4i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_634y6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_efrwb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_hiqhm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_tkwlq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_hl5qd")
+}],
+"loop": 1,
+"name": &"running",
+"speed": 8.0
+}]
+
+[node name="Player" type="CharacterBody2D" unique_id=967729314]
+position = Vector2(8, -16)
+script = ExtResource("1_pylmc")
 metadata/_edit_group_ = true
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1983503189]
+position = Vector2(9, 0)
+scale = Vector2(0.5, 0.5)
+sprite_frames = SubResource("SpriteFrames_2u2tv")
+animation = &"running"
+autoplay = "idle"
+frame_progress = 0.8647607
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=514568356]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." unique_id=819070421]
+position = Vector2(0, -2.3841858e-07)
+scale = Vector2(1, 1.6)
+polygon = PackedVector2Array(-7, 10, -5, 10, -2, 2.5, 0, 2.5, 1, 10, 3, 10, 2, 6.25, 2, -5, -2, -5)
