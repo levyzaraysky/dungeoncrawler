@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ctsg2c6p6e7ej"
-path="res://.godot/imported/attack_from_air.png-f2dcccf0004c6b242d0c39db636c23a2.ctex"
+uid="uid://cdweehsntc38g"
+path="res://.godot/imported/Background.png-8f69d096e6b4fc711b8b592cc4d135f0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/2D_SL_Knight_v1.0/attack_from_air.png"
-dest_files=["res://.godot/imported/attack_from_air.png-f2dcccf0004c6b242d0c39db636c23a2.ctex"]
+source_file="res://sprites/Free Pixel Art plataformer painted style/PNG/Background.png"
+dest_files=["res://.godot/imported/Background.png-8f69d096e6b4fc711b8b592cc4d135f0.ctex"]
 
 [params]
 

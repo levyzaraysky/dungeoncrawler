@@ -2,17 +2,30 @@
 
 [ext_resource type="Script" uid="uid://0g2qlxdjuulj" path="res://player.gd" id="1_pylmc"]
 [ext_resource type="Texture2D" uid="uid://npuduypg3qhe" path="res://sprites/HeroandOpponents_v1/Player/PNG/Idle/idle-1.png" id="1_q13i1"]
+[ext_resource type="Texture2D" uid="uid://clxl1qtrm7ky6" path="res://sprites/HeroandOpponents_v1/Player/PNG/Attacks/attack-A1.png" id="2_efrwb"]
 [ext_resource type="Texture2D" uid="uid://bs5upyqk2x23a" path="res://sprites/HeroandOpponents_v1/Player/PNG/Idle/idle-2.png" id="2_pylmc"]
+[ext_resource type="Texture2D" uid="uid://bromf2262h1rq" path="res://sprites/HeroandOpponents_v1/Player/PNG/Attacks/attack-A2.png" id="3_hiqhm"]
 [ext_resource type="Texture2D" uid="uid://cqiecesx67j5r" path="res://sprites/HeroandOpponents_v1/Player/PNG/Idle/idle-3.png" id="3_pbfsw"]
 [ext_resource type="Texture2D" uid="uid://bvgynoxfpb8rd" path="res://sprites/HeroandOpponents_v1/Player/PNG/Idle/idle-4.png" id="4_5tmop"]
+[ext_resource type="Texture2D" uid="uid://brbyp0mpi0mg" path="res://sprites/HeroandOpponents_v1/Player/PNG/Attacks/attack-A3.png" id="4_tkwlq"]
 [ext_resource type="Texture2D" uid="uid://cqgth6cnrbiih" path="res://sprites/HeroandOpponents_v1/Player/PNG/Idle/idle-5.png" id="5_7ahtn"]
+[ext_resource type="Texture2D" uid="uid://d158w7qhhwg8s" path="res://sprites/HeroandOpponents_v1/Player/PNG/Attacks/attack-A4.png" id="5_hl5qd"]
 [ext_resource type="Texture2D" uid="uid://e1rrgjq841k1" path="res://sprites/HeroandOpponents_v1/Player/PNG/Idle/idle-6.png" id="6_7lmhl"]
+[ext_resource type="Texture2D" uid="uid://dmqc6ryvg276s" path="res://sprites/HeroandOpponents_v1/Player/PNG/Attacks/attack-A5.png" id="6_ek41f"]
 [ext_resource type="Texture2D" uid="uid://dbdl2sjha3kxy" path="res://sprites/HeroandOpponents_v1/Player/PNG/Run/run-1.png" id="7_dx0e4"]
+[ext_resource type="Texture2D" uid="uid://dp6586u376fdg" path="res://sprites/HeroandOpponents_v1/Player/PNG/Attacks/attack-A6.png" id="7_khis8"]
+[ext_resource type="Texture2D" uid="uid://c30mns8vxkbu" path="res://sprites/HeroandOpponents_v1/Player/PNG/Idle/idle-with-weapon-1.png" id="8_7hik5"]
+[ext_resource type="Texture2D" uid="uid://ukdai4nwmto8" path="res://sprites/HeroandOpponents_v1/Player/PNG/Attacks/attack-A7.png" id="8_b88wv"]
 [ext_resource type="Texture2D" uid="uid://cncdvv87t0yoy" path="res://sprites/HeroandOpponents_v1/Player/PNG/Run/run-2.png" id="8_jm5j8"]
 [ext_resource type="Texture2D" uid="uid://d2w8gd7yprd8j" path="res://sprites/HeroandOpponents_v1/Player/PNG/Run/run-3.png" id="9_7hik5"]
+[ext_resource type="Texture2D" uid="uid://cjq6aoxdu5vq4" path="res://sprites/HeroandOpponents_v1/Player/PNG/Idle/idle-with-weapon-2.png" id="9_qtqh7"]
+[ext_resource type="Texture2D" uid="uid://bds1ymmrogmoh" path="res://sprites/HeroandOpponents_v1/Player/PNG/Idle/idle-with-weapon-3.png" id="10_2wuci"]
 [ext_resource type="Texture2D" uid="uid://bklmyschikavw" path="res://sprites/HeroandOpponents_v1/Player/PNG/Run/run-4.png" id="10_qtqh7"]
 [ext_resource type="Texture2D" uid="uid://c6wagcbfwksnd" path="res://sprites/HeroandOpponents_v1/Player/PNG/Run/run-5.png" id="11_2wuci"]
+[ext_resource type="Texture2D" uid="uid://ed3jli1htulu" path="res://sprites/HeroandOpponents_v1/Player/PNG/Idle/idle-with-weapon-4.png" id="11_iruf7"]
 [ext_resource type="Texture2D" uid="uid://dc777riak8bye" path="res://sprites/HeroandOpponents_v1/Player/PNG/Run/run-6.png" id="12_iruf7"]
+[ext_resource type="Texture2D" uid="uid://cq80aeefpioko" path="res://sprites/HeroandOpponents_v1/Player/PNG/Idle/idle-with-weapon-5.png" id="12_j5n4i"]
+[ext_resource type="Texture2D" uid="uid://cqqgtgw02o13s" path="res://sprites/HeroandOpponents_v1/Player/PNG/Idle/idle-with-weapon-6.png" id="13_634y6"]
 [ext_resource type="Texture2D" uid="uid://kdq4hvx8qyj0" path="res://sprites/HeroandOpponents_v1/Player/PNG/Run/run-7.png" id="13_j5n4i"]
 [ext_resource type="Texture2D" uid="uid://bn2883admrcgq" path="res://sprites/HeroandOpponents_v1/Player/PNG/Run/run-8.png" id="14_634y6"]
 [ext_resource type="Texture2D" uid="uid://c7ed8p07kct0l" path="res://sprites/HeroandOpponents_v1/Player/PNG/Run/run-9.png" id="15_efrwb"]
@@ -22,6 +35,32 @@
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_2u2tv"]
 animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_efrwb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_hiqhm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_tkwlq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_hl5qd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_ek41f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_khis8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_b88wv")
+}],
+"loop": 0,
+"name": &"attack",
+"speed": 9.0
+}, {
 "frames": [{
 "duration": 1.0,
 "texture": ExtResource("1_q13i1")
@@ -44,6 +83,29 @@ animations = [{
 "loop": 1,
 "name": &"idle",
 "speed": 2.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("8_7hik5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_qtqh7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_2wuci")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_iruf7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_j5n4i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_634y6")
+}],
+"loop": 1,
+"name": &"idle_sword",
+"speed": 5.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -85,6 +147,11 @@ animations = [{
 "loop": 1,
 "name": &"running",
 "speed": 8.0
+}, {
+"frames": [],
+"loop": 1,
+"name": &"running_sword",
+"speed": 5.0
 }]
 
 [node name="Player" type="CharacterBody2D" unique_id=967729314]
@@ -96,9 +163,9 @@ metadata/_edit_group_ = true
 position = Vector2(9, 0)
 scale = Vector2(0.5, 0.5)
 sprite_frames = SubResource("SpriteFrames_2u2tv")
-animation = &"running"
+animation = &"attack"
 autoplay = "idle"
-frame_progress = 0.8647607
+metadata/_edit_group_ = true
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=514568356]
 
@@ -106,3 +173,5 @@ frame_progress = 0.8647607
 position = Vector2(0, -2.3841858e-07)
 scale = Vector2(1, 1.6)
 polygon = PackedVector2Array(-7, 10, -5, 10, -2, 2.5, 0, 2.5, 1, 10, 3, 10, 2, 6.25, 2, -5, -2, -5)
+
+[connection signal="animation_finished" from="AnimatedSprite2D" to="." method="_on_animated_sprite_2d_animation_finished"]

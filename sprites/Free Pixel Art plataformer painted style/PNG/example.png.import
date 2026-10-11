@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bpa3123uos0o1"
-path="res://.godot/imported/Climb.png-d5a79674b11ea0369ef3f551e1e295e3.ctex"
+uid="uid://dmi7vuer2tjc1"
+path="res://.godot/imported/example.png-4115bad9d023dc387ff0466ee0bc8689.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/2D_SL_Knight_v1.0/Climb.png"
-dest_files=["res://.godot/imported/Climb.png-d5a79674b11ea0369ef3f551e1e295e3.ctex"]
+source_file="res://sprites/Free Pixel Art plataformer painted style/PREVIEWS/example.png"
+dest_files=["res://.godot/imported/example.png-4115bad9d023dc387ff0466ee0bc8689.ctex"]
 
 [params]
 
